@@ -3,23 +3,14 @@ layout: home
 ---
 
 <div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<h1>Welcome to Kaibots</h1>
+  <div class="hero">
+    <img class="main-product" src="/assets/manabot.gif">
+    <img class="main-product-logo" src="/assets/manabotlogo.gif">
+  </div>
+    <h3>What's a Manabot?</h3>
+    <p>It's a programmable robot. 
+With it you will be able to learn Arduino code. Also, you can control an accelerometer, a gyroscope, two gearmotors and a servomotor from your smartphone using Bluetooth.
+It is designed for you to reuse the parts in your personal projects or to create your own robots</p>
+  </div>
 </div>
