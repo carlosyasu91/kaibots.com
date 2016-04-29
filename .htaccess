@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteRule ^home index.php [NC,L]
+RewriteRule ^about about.php [NC,L]
+RewriteRule ^gallery gallery.php [NC,L]
+RewriteRule ^privacypolicy privacypolicy.php [NC,L]
+RewriteRule ^manabot-details manabot_details.php [NC,L]
+RewriteRule ^guides guides.php [NC,L]
+RewriteRule ^course paycourse.php [NC,L]
+RewriteRule ^curso paycourse.php [NC,L]
+RewriteRule ^buymanabot https://kaibots.myshopify.com/products/manabot [NC,L]
