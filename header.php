@@ -49,10 +49,10 @@ require('functions.php');
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse main-nav" id="bs-example-navbar-collapse-1" style="margin:0px auto">
       <ul class="nav navbar-nav main-nav">
-        <li><a href="manabot-details" style="color:black"><?php echo manabot;?></a></li>
-        <li><a href="guides" style="color:black"><?php echo examples;?></a></li>
-        <li><a href="about" style="color:black"><?php echo about;?></a></li>
-        <li><a href="gallery" style="color:black"><?php echo gallery;?></a></li>
+        <li><a href="manabot_details.php" style="color:black"><?php echo manabot;?></a></li>
+        <li><a href="guides.php" style="color:black"><?php echo examples;?></a></li>
+        <li><a href="about.php" style="color:black"><?php echo about;?></a></li>
+        <li><a href="gallery.php" style="color:black"><?php echo gallery;?></a></li>
        
       </ul>
      <div class="flagsdiv" style="margin-top:12px;margin-right:0px">
