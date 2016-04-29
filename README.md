@@ -1,2 +1,0 @@
-# kaibots.com
-Kaibots website
