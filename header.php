@@ -43,7 +43,7 @@ require('functions.php');
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
      
-	<a href="home"><img src="http://kaibots.com/images/kaibotlogonobackground.gif" alt="Mountain View" class="center kaibotslogo"></a>
+	<a href="/index.php"><img src="http://kaibots.com/images/kaibotlogonobackground.gif" alt="Mountain View" class="center kaibotslogo"></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->

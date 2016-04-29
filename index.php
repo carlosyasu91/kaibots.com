@@ -26,7 +26,7 @@ include('header.php');
 	<h4>
 	<?php echo whymanabotdesc;?>
 	</h4>
-		<p class="details-link"><a href="manabot-details" ><?php echo details;?></a></p>
+		<p class="details-link"><a href="manabot_details.php" ><?php echo details;?></a></p>
 	</div>
 	<div class="buy-button-div">
 		<div style="text-align:center;margin:0 auto" 
@@ -43,9 +43,6 @@ include('header.php');
 		data-redirect_to="checkout" 
 		data-shop="kaibots.myshopify.com">
 		</div>
-	<script type="text/javascript">
-	document.getElementById('ShopifyEmbedScript') || document.write('<script type="text/javascript" src="https://widgets.shopifyapps.com/assets/widgets/embed/client.js" id="ShopifyEmbedScript"><\/script>');
-	</script>
 		<!--<button type="button" class="btn btn-default btn-lg buy-button" ><?php //echo buynow;?></button>-->
 	</div>
 	<div style="height:50px"></div>
@@ -53,7 +50,7 @@ include('header.php');
 		<p><?php echo appmessage;?></p>
 		<a target="_blank"href="https://play.google.com/store/apps/details?id=com.kaibotsgen.android.BluetoothChat">
 		  <img alt="Get it on Google Play"
-		       src="https://developer.android.com/images/brand/en_generic_rgb_wo_45.png" />
+		       src="images/google-play-badge.png" />
 		</a>
 	</div>
 <!-- Closing main-container -->
