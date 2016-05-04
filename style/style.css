@@ -1,3 +1,9 @@
+
+
+@font-face {
+    font-family: "Mechalock"; /*a name to be used later*/
+    src: url(../fonts/Mechalock.ttf) format("truetype");
+}
 html,body{
   height: 100%;
 }
@@ -41,16 +47,16 @@ h4.footertext{
     text-align: center;
     font-size: 16px;
 }
-h2.welcome{
-  font-family: "Mechalock", Verdana;
+h2.slogan{
+  font-family: "Fjalla One", Verdana;
   font-size: 38px;
   letter-spacing: 1.3px;
   color:#000;
 }
-img.center {
-    margin:10px auto;
+img .center {
+    margin:5px auto;
 }
-img.profile{
+img .profile{
     width:150px;
     border-radius: 5px;
 }
@@ -64,7 +70,7 @@ img.splash{
     border-radius: 15px;
 } 
 .menu{
-	vertical-align: middle;
+  vertical-align: middle;
     display: block;
 }
 p.missiontext{
@@ -157,24 +163,6 @@ body {
     display: inline-block;
     margin-right: -4px;
   }
- 
-  /* Options 2 - Float
-  .nav li {
-    float: left;
-  }
-  .nav ul {
-    overflow: auto;
-    width: 600px;
-    margin: 0 auto;
-  }
-  .nav {
-    background-color: #444;
-  }
-  */
-}
-@font-face {
-    font-family: "Mechalock"; /*a name to be used later*/
-    src: url(../fonts/Mechalock.ttf) format("truetype");
 }
 
 .clearfix { 
@@ -243,7 +231,6 @@ body {
 }
 .background-container{
   min-height: 100%;
-  margin-bottom: 60px;
 }
 .foot{
   height: 120px; 
@@ -256,16 +243,24 @@ body {
   margin-right:25px;
 }
 .main-nav{
-  font-size:7.5px;
+  font-size:23x;
   color:black;
-  margin: 0px 50px;
+  margin: 0px 20px;
+}
+.main-nav ul{
+  list-style: none;
+}
+.main-nav ul>li{
+  display:inline-block;
+  font-size: 19px;
+  margin-left: 28px;
+  margin-top: 5px;
+}
+.main-nav>li>a{
+  padding-top: 12px;
 }
 .navcenter{
   margin:0px auto;
-}
-.main-nav>li>a:hover{
-  background-color: black;
-  opacity: 0.5;
 }
 .nav-properties{
   background-color: transparent;
@@ -273,8 +268,8 @@ body {
   border-radius: 0px;
 }
 .center{
-  display:block;
-  margin:0px auto;
+  display: block;
+  margin: 5px auto;
 }
 .kitdescription{
   display: block;
@@ -306,4 +301,21 @@ body {
 }
 .applinks img{
   width: 200px;
+}
+.navbar-default{
+  width:70%;
+  margin:0px auto 10px auto;
+}
+
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -142px; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer {
+  height: 142px; 
 }

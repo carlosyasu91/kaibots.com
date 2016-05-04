@@ -11,7 +11,7 @@ include('header.php');
 ?>
 <div class="background-container" >
 	<div class="container main-container">
-	<h2 class="welcome" style="text-align:center"><?php echo welcome; ?></h2>
+	<h2 class="slogan" style="text-align:center"><?php echo slogan; ?></h2>
 
 	<div class="manabot-logo">
 		<img src="images/manabotlogo.gif">
@@ -46,13 +46,7 @@ include('header.php');
 		<!--<button type="button" class="btn btn-default btn-lg buy-button" ><?php //echo buynow;?></button>-->
 	</div>
 	<div style="height:50px"></div>
-	<div class="applinks">
-		<p><?php echo appmessage;?></p>
-		<a target="_blank"href="https://play.google.com/store/apps/details?id=com.kaibotsgen.android.BluetoothChat">
-		  <img alt="Get it on Google Play"
-		       src="images/google-play-badge.png" />
-		</a>
-	</div>
+	
 <!-- Closing main-container -->
 </div>
 <!-- closing background-container-->

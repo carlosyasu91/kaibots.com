@@ -4,7 +4,7 @@ define('title', 'Kaibots - The next generation entertainment');
 define('about', 'About');
 define('examples','Examples');
 define('gallery', 'Gallery');
-define('welcome', 'Welcome to Kaibots!');
+define('slogan', 'Next generation entertainment');
 define('meetmessage', 'Meet Manabot!');
 define('kitincludes', 'The kit includes:');
 define('arduinonano', 'Arduino Nano');
