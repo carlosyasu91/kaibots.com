@@ -12,21 +12,18 @@ include('header.php');
 <div class="background-container" >
 	<div class="container main-container">
 	<h2 class="slogan" style="text-align:center"><?php echo slogan; ?></h2>
-
-	<div class="manabot-logo">
-		<img src="images/manabotlogo.gif">
-	</div>
-	<div style="float:left;display:inline-block">
-		<div style="float:left">
-	<img src="images/manabot.gif" height="440" style="display:inline"/>
-	</div>
-	</div>
-	<h3 style="text-align:left;padding-left:400px"><?php echo whymanabot;?></h3>
-	<div class="kitdescription"  style="width:400px">
-	<h4>
-	<?php echo whymanabotdesc;?>
-	</h4>
-		<p class="details-link"><a href="manabot_details.php" ><?php echo details;?></a></p>
+	<img class="manabot-logo" src="images/manabotlogo.gif">
+	<div class="main-product-container">
+		<img src="images/manabot.gif" height="440" style="display:inline"/>
+		<div>
+		<h3><?php echo whymanabot;?></h3>
+		<div class="kitdescription"  style="width:400px">
+		<h4>
+		<?php echo whymanabotdesc;?>
+		</h4>
+			<p class="details-link"><a href="manabot_details.php" ><?php echo details;?></a></p>
+		</div>
+		</div>
 	</div>
 	<div class="buy-button-div">
 		<div style="text-align:center;margin:0 auto" 

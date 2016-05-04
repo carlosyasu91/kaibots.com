@@ -198,8 +198,7 @@ body {
   margin:10px 0px;
 }
 .main-container{
-  min-width: 830px;
-  width:70%;
+  width: 860px;
   border: 1px solid #BCBCBC;
   border-radius: 10px;
   padding:30px;
@@ -298,12 +297,13 @@ body {
 }
 .manabot-logo{
   text-align: center;
+  display: block;
+  margin: 0 auto;
 }
 .applinks img{
   width: 200px;
 }
 .navbar-default{
-  width:70%;
   margin:0px auto 10px auto;
 }
 
@@ -318,4 +318,8 @@ body {
 }
 .site-footer {
   height: 142px; 
+}
+.main-product-container{
+  display:flex;
+  justify-content: center;
 }
