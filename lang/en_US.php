@@ -78,4 +78,5 @@ define('releasedate','The first guide will be live on april 20th');
 define('course','Course');
 define('comingsoon','Coming soon!');
 define('guidestitle','Guides');
+define('blog', 'Blog')
 ?>

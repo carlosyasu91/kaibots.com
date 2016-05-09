@@ -51,6 +51,7 @@ require('functions.php');
         <li><a href="manabot_details.php" style="color:black"><?php echo manabot;?></a></li>
         <li><a href="guides.php" style="color:black"><?php echo examples;?></a></li>
         <li><a href="about.php" style="color:black"><?php echo about;?></a></li>
+        <li><a href="blog" style="color:black"><?php echo blog;?></a></li>
         <li><a href="gallery.php" style="color:black"><?php echo gallery;?></a></li>
        
       </ul>
